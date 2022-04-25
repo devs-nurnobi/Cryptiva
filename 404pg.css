@@ -1,0 +1,25 @@
+
+.banner-404page{
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.banner-text-404page{
+    margin-top: -70px;
+}
+.banner-text-404page h1{
+    color: #0ec9ac;
+    font-size: 150px;
+}
+.banner-text-404page h5{
+    font-size: 33px;
+    color: #fff;
+    padding-bottom: 5px;
+}
+.banner-text-404page p{
+    color: #828FA0;
+    padding: 10px 0;
+}
+.banner-text-404page a{
+    padding: 12px 22px;
+}

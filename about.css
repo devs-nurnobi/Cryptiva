@@ -1,0 +1,112 @@
+/* about section css style */
+.head-slid-about{
+    background:linear-gradient(rgba(0,20,44, .8), rgba(0,20,44, .8)), url(https://templatekit.jegtheme.com/cryptiva/wp-content/uploads/sites/53/2021/03/3074187.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+.banner-text-about h2{
+    color: #fff;
+    font-size: 35px;
+}
+.banner-about{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+/* performance section css style */
+.per-ser-about{
+    background:linear-gradient(rgba(0,20,44,.75), rgba(0,20,44, .75)), url(https://templatekit.jegtheme.com/cryptiva/wp-content/uploads/sites/53/2021/03/cybercrime-through-the-internet-.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.perf-number .counter{
+    color: #fff;
+}
+
+/* team about section css style */
+.team-about{
+    position: relative;
+    overflow: hidden;
+}
+.team-about-items{
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: relative;
+
+}
+.team-about-items img{
+    border-radius: 10px;
+}
+.team-about-items .mypic{
+    max-height: 100%;
+}
+
+.team-hoverdiv h2 {
+    position: relative;
+    top: 170px;
+    left: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.team-hoverdiv p {
+    color: #828FA0;
+    position: relative;
+    top: 163px;
+    left: 0;
+    text-align: center;
+    font-size: 14px;
+}
+.team-hoverdiv ul {
+    position: relative;
+    top: 153px;
+    left: 0;
+    text-align: center;
+    padding-left: 0;
+}
+.team-hoverdiv ul li{
+    display: inline-block;
+}
+.team-hoverdiv ul li i {
+    color: #fff;
+    background-color: #0ec9ac;
+    height: 30px;
+    width: 30px;
+    line-height: 29px;
+    border-radius: 50%;
+    margin: 4px 3px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    transition: .4s;
+    cursor: pointer;
+    text-align: center;
+    font-size: 13px;
+}
+.team-hoverdiv ul li i:hover{ 
+    color: #0ec9ac;
+    background-color: #fff;
+    border: 2px solid #0ec9ac;
+    box-shadow: 2px 2px 15px 0 rgba(14, 201, 172, .5);
+}
+
+.team-hoverdiv{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(1,1,1,.3);
+    height: 0;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    overflow: hidden;
+}
+.team-about-items:hover .team-hoverdiv{
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+}

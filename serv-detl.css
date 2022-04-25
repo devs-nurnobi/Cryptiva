@@ -1,0 +1,203 @@
+.head-slid-serv-detl{
+    background:linear-gradient(rgba(0,20,44, .96), rgba(0,20,44, .96)), url(https://templatekit.jegtheme.com/cryptiva/wp-content/uploads/sites/53/2021/03/3074187.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+.banner-serv-detl{
+    width: 100%;
+    margin: auto;
+}
+
+
+/* network service section css style */
+.net-sec{
+    padding: 80px 0;
+    box-sizing: border-box;
+}
+.net-sec-left{
+    color: #fff;
+}
+.net-sec-left ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.net-sec-left ul li {
+    display: block;
+    list-style: none;
+    background: #011936;
+    padding: 19px 17px;
+    margin: 22px 0;
+    border-radius: 8px;
+}
+.net-sec-left ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    max-width: 238px;
+    cursor: pointer;
+    transition: .2s;
+}
+.net-sec-left ul li a:hover{
+    color: #0ec9ac;
+}
+.net-sec-color{
+    margin-top: 0;
+    color: #0ec9ac !important;
+}
+
+.net-sec-left ul li i {
+    color: #0ec9ac;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+.net-trial-sec {
+    background: linear-gradient(rgba(0,20,44, .76), rgba(0,20,44,.76)), url(https://templatekit.jegtheme.com/cryptiva/wp-content/uploads/sites/53/2021/03/diverse-computer-hacking-shoot.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 35px;
+    margin-top: 60px;
+}
+.net-trial-sec h2 {
+    font-size: 30px;
+}
+.net-trial-sec p {
+    padding: 10px 0;
+}
+
+.net-sec-right{
+    color: #fff;
+}
+.net-sec-right img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.net-sec-right h3 {
+    font-size: 31px;
+    padding: 10px 0;
+    margin-top: 15px;
+}
+.net-sec-right p {
+    color: #828FA0;
+}
+.net-sec-right h4 {
+    font-size: 28px;
+    padding: 9px 0;
+}
+
+
+/* owl carousel css style */
+
+.owl-next span {
+    font-size: 100px;
+    position: relative;
+    top: -40px;
+    left: 0;
+
+}
+.owl-prev span {
+    font-size: 100px;
+    position: relative;
+    top: -40px;
+    left: 0;
+
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: none;
+    color:#fff;
+    border: none;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.owl-prev {
+    width: 45px;
+    height: 100px;
+    position: absolute;
+    top:30%;
+    margin-left:-20px;
+    display: block !important;
+    border:0px solid black;
+    padding-top: -30px;
+}
+.owl-next {
+    width: 45px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 835px;
+    margin-right: -20px;
+    display: block !important;
+    border:0px solid black;
+}
+
+/* network service video section css style */
+.net-video{}
+.net-sec-video{
+    background: url(https://templatekit.jegtheme.com/cryptiva/wp-content/uploads/sites/53/2021/03/female-hacker-wearing-a-hoodie-using-a-dangerous-virus-e1615279123329.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    position: relative;
+}
+.net-sec-video a {
+    height: 65px;
+    width: 65px;
+    display: inline-block;
+    background: #fff;
+    font-size: 26px;
+    border-radius: 50%;
+    line-height: 64px;
+    color: #0ec9ac;
+    padding-left: 4px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+.net-sec-video a::before{
+    content: "";
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    background-color: #0ec9ac;
+    border-radius: 50%;
+    animation:playbtn 1.3s ease-out infinite;
+}
+@keyframes playbtn{
+    0%,15%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    30%{
+        transform: scale(1.2);
+        opacity: .7;
+    }
+    60%{
+        transform: scale(1.4);
+        opacity: .4;
+    }
+    100%{
+        transform: scale(1.6);
+        opacity: 0;
+    }
+}
+
+
+.net-video p{
+    color: #828FA0;
+    margin-left: 10px;
+    padding: 25px 0;
+}

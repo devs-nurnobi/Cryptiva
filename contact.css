@@ -1,0 +1,113 @@
+/* touch section css stle */
+.touch{
+    padding: 50px 0;
+}
+.touch-left {
+    padding-top: 100px;
+}
+.touch-left h4{
+    color: #0ec9ac;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.touch-left h2{
+    color: #fff;
+    font-size: 28px;
+    padding: 10px 0;
+}
+.touch-left p {
+    color: #828fa0;
+    padding-bottom: 44px;
+    padding-top: 4px;
+}
+
+.touch-items{
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.touch-items i {
+    color: #0ec9ac;
+    float: left;
+    margin-right: 11px;
+    height: 55px;
+    width: 55px;
+    font-size: 27px;
+    background: #011936;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 10px;
+}
+.touch-items h5 {
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 5px;
+}
+.touch-items h6 {
+    color: #828fa0;
+    font-size: 15px;
+    padding-left: 5px;
+    margin-left: 6px;
+}
+
+/* touchh form css style section */
+.touch-right{
+    border: 1px solid #10233b;
+    box-sizing:border-box;
+    padding: 35px;
+}
+.touch-form{}
+.touch-form input {
+    background-color: #011936;
+    border: 1px solid #10233b;
+    border-radius: 7px;
+    padding: 25px 14px;
+    box-sizing: border-box;
+    margin: 27px 0;
+    color: #fff;
+}
+.touch-form input:focus{
+    background-color: #00142c;
+    border: 1px solid #222b37;
+    box-shadow: none !important;
+    color: #fff;
+}
+
+
+.touch-form textarea{
+    background-color: #011936;
+    border: 1px solid #10233b;
+    border-radius: 7px;
+    padding: 25px 14px;
+    box-sizing: border-box;
+    margin: 27px 0;
+    color: #fff;
+}
+.touch-form textarea:focus{
+    background-color: #00142c;
+    border: 1px solid #222b37;
+    box-shadow: none !important;
+    color:#fff;
+}
+.touch-form button{
+    color: #fff;
+    background-color: #0ec9ac;
+    border: none;
+    padding:8px 18px;
+    transition: .4s;
+    border: 2px solid transparent;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    display: block;
+    font-weight: 600;
+}
+.touch-form button:focus{
+    color: #0ec9ac;
+    background-color: #fff;
+    border:2px solid #0ec9ac ;
+    box-shadow: 2px 2px 16px 0 rgba(14, 201, 172, .4);
+}
+
+
+
+/* modal section css style */

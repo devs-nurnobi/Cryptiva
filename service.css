@@ -1,0 +1,143 @@
+.head-slid-service{
+    background:linear-gradient(rgba(0,20,44, .8), rgba(0,20,44, .8)), url(https://templatekit.jegtheme.com/cryptiva/wp-content/uploads/sites/53/2021/03/3074187.jpg) no-repeat center;
+    background-size: cover;
+    height: 450px;
+}
+.banner-text-service h2{
+    color: #fff;
+    font-size: 35px;
+}
+.banner-service{
+    width: 100%;
+    margin: auto;
+}
+
+/* service section css style */
+.service-service{
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+/* testimonial section css style */
+.testimonial{
+    background:linear-gradient(rgba(0,20,44,.7), rgba(0,20,44, .7)), url(https://templatekit.jegtheme.com/cryptiva/wp-content/uploads/sites/53/2021/03/cybercrime-cyber-security.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 130px;
+    background-attachment: fixed;
+}
+.test-banner{
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.test-banner h4 {
+    color: #0ec9ac;
+    font-size: 20px;
+}
+.test-banner h2 {
+    font-size: 38px;
+    padding-top: 7px;
+    padding-bottom: 17px;
+}
+
+/* testimonil service section css style */
+.testimonial-item{
+    background: #00142c !important;
+    margin-top: 40px;
+    border-radius: 10px 10px 0 0;
+}
+.test-item{
+    margin: 40px auto;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    width:90%;
+}
+.test-item img {
+    max-width: 60px;
+    border-radius: 50%;
+    margin: 13px auto;
+}
+.test-item h2 {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.test-item h6 {
+    font-size: 15px;
+    color: #828FA0;
+}
+.test-item p {
+    color: #828FA0;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* pricing service section css sytle */
+.pricing-service{
+    padding: 70px 0;
+}
+.pricing-left-service {
+    margin-top: 39px;
+    padding-bottom: 50px;
+}
+.pricing-left-service h3 {
+    color: #0ec9ac;
+    font-size: 18px;
+}
+.pricing-left-service h2 {
+    color: #fff;
+    font-size: 34px;
+    margin-top: 18px;
+}
+.pricing-left-service p {
+    color: #828FA0;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pricing-items-service {
+    border: 1px solid #828FA0;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.pricing-items-service h2 {
+    color: #fff;
+    font-size: 27px;
+    padding-top: 10px;
+}
+.pricing-items-service h1 {
+    color: #0ec9ac;
+    font-size: 48px;
+    margin-bottom: 9px;
+}
+.pricing-items-service h5{
+    color:#828FA0;
+    font-size: 12px;
+}
+.pricing-items-service ul{
+    margin-left: 0;
+    padding-left: 0;
+    padding-bottom: 5px;
+}
+.pricing-items-service ul li{
+    display: inline-block;
+    list-style: none;
+    color: #828FA0;
+    padding: 14px 0;
+    border-bottom: 1px solid #6B7C9326;
+    transition: .3s;
+}
+.pricing-items-service ul li:hover{
+    color: #0ec9ac;
+}
+.pricing-items-service ul li:last-child{
+    border-bottom: none;
+}
+.pricing-items-service ul li i {
+    color: #0ec9ac;
+    width: 31px;
+}

@@ -1,0 +1,83 @@
+
+/* header-section banner */
+.head-slid-bannerteam{
+    background:linear-gradient(rgba(0,20,44, .96), rgba(0,20,44, .96)), url(https://templatekit.jegtheme.com/cryptiva/wp-content/uploads/sites/53/2021/03/3074187.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+.banner-ourteam{
+    width: 100%;
+    margin: auto;
+}
+
+/* expertise section css style */
+.expertise-section{
+    padding: 70px 0;
+}
+.expertise-left{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.expertise-left h5{
+    font-size: 18px;
+    color: #0ec9ac;
+    margin: 15px 0;
+}
+.expertise-left h2{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 26px;
+}
+.expertise-left p{
+    color: #828FA0;
+}
+/* owl carousel */
+
+/* skill ber css section style */
+.expertise-right{
+    max-width: 100%;
+    width: 75%;
+    margin: auto;
+}
+.skills{
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+    margin: auto;
+}
+.skill-name {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+.skill-ber {
+    height: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    
+}
+.skill-per{
+    height: 10px;
+    background-color: #0ec9ac;
+    border-radius: 5px;
+    position: relative;
+    animation: asdfg 3s 1;
+}
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    top: -26px;
+    right: 0;
+    color: #fff;
+    padding: 4px 6px;
+}
+@keyframes asdfg{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}

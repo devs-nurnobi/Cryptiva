@@ -1,0 +1,204 @@
+
+/* blog post section css style */
+.posts{
+    padding: 50px;
+}
+.post-left{
+    padding-top: 50px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+
+.post-item{
+    position: relative;
+    padding: 20px 0;
+}
+.post-item img{
+    border-radius: 10px;
+}
+.blog-btn {
+    color: #fff;
+    background-color: #0ec9ac;
+    padding: 7px 10px;
+    position: absolute;
+    bottom: 208px;
+    left: 0;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none !important;
+    transition: .3s;
+}
+.blog-btn:hover{
+    color: #fff;
+    background-color: #06b197;
+}
+.post-item h2 {
+    color: #fff;
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.post-item p{
+    color: #828FA0;
+    font-size: 15px;
+}
+.post-item .blog-arrow{
+    color: #0ec9ac;
+    padding: 10px 0;
+    text-decoration: none !important;
+    font-size: 18px;
+}
+.blog-title{
+    text-decoration: none !important;
+}
+
+.blog-switch {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 39px;
+    left: 0;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.blog-switch:hover{
+    position: relative;
+    top: 30px;
+    left: 0;
+}
+
+/* post section css style */
+.post-right{
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.recent-post {
+    background: #011936;
+    padding: 41px;
+    border-radius: 9px;
+    margin-top: 100px;
+}
+.recent-post h2 {
+    color: #fff;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+.recent-item{
+    transition: .4s;
+}
+.recent-item:hover h4{
+    color: #0ec9ac;
+    text-decoration: none !important;
+}
+
+.recent-img{
+    max-width: 110px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-bottom: 2px;
+}
+.recent-item img {
+    max-width: 45%;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.recent-item h4 {
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    top: -9px;
+    left: 10px;
+    max-width: 100%;
+    font-weight: 400;
+    line-height: 21px;
+    transition: .4s;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.recent-item p {
+    position: relative;
+    top: -11px;
+    left: 10px;
+    color: #828fa0;
+    font-size: 15px;
+}
+
+.recent-text-right h4{
+    text-decoration: none !important;
+    display: inline-block;
+}
+.recent-text-right:hover{
+    text-decoration: none;
+}
+
+/* post categories section css style */
+.post-categories {
+    background-color: #011936;
+    box-sizing: border-box;
+    padding: 20px 60px;
+    margin-top: 60px;
+    border-radius: 9px;
+}
+.post-categories h3{
+    font-size: 25px;
+    color: #fff;
+    padding: 15px 0;
+}
+.post-categories ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.post-categories ul li {
+    list-style: none;
+    border-bottom: 1px solid #10233b;
+    
+}
+.post-categories ul li a {
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    transition: .4s;
+    padding: 5px 0;
+    font-weight: 600;
+}
+.post-categories ul li a:hover{
+    color: #0ec9ac;
+}
+.post-categories ul li i {
+    color: #0ec9ac;
+    margin-right: 13px;
+    padding: 10px 0;
+}
+
+/* categories bottom section css style */
+.categories-bottom {
+    background: linear-gradient(rgba(0,20,44,.3), rgba(0,20,44,.3)), url(https://templatekit.jegtheme.com/cryptiva/wp-content/uploads/sites/53/2021/03/top-view-of-the-hands-of-a-programmer-on-his-laptop.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.categories-bottom h5 {
+    color: #fff;
+    font-size: 27px;
+    padding-bottom: 15px;
+}
+.categories-bottom p {
+    color: #fff;
+    font-weight: 600;
+}
+.categories-bottom h1, h6 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.categories-bottom  i {
+    color: #0ec9ac;
+    margin-right: 8px;
+}
